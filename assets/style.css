@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
 
 header {
@@ -22,7 +22,7 @@ header {
 
 
 .titulo::first-letter {
-    color: aquamarine;
+    color:rgb(146, 0, 243);
     font-size: 50px;
 }
 
@@ -65,154 +65,154 @@ header {
     height: 400px;
     background-color: #333333;
     border-radius: 30px;
-   
+
 
 
 }
 
-.nav:hover {
-    filter: opacity(50%);
+
+.nav:nth-child(1):hover,
+.nav:nth-child(2):hover,
+.nav:nth-child(3):hover,
+.nav:nth-child(4):hover {
+    background-size: cover;
+    transition: 300ms ease-in-out all;
 }
 
 .nav:nth-child(1):hover {
     background-image: url(images/cont.jpg);
-    background-size: cover;
+
 
 }
 
 
-    .nav:nth-child(2):hover {
-        background-image: url(images/ciencia.jpg);
-        background-size: cover;
+.nav:nth-child(2):hover {
+    background-image: url(images/ciencia.jpg);
 
-    }
+}
 
-    .nav:nth-child(3):hover {
-        background-image: url(images/entretenimento.jpg);
-        background-size: cover;
+.nav:nth-child(3):hover {
+    background-image: url(images/entretenimento.jpg);
 
-    }
+}
 
-    .nav:nth-child(4):hover {
-        background-image: url(images/novidades.jpg);
-        background-size: cover;
+.nav:nth-child(4):hover {
+    background-image: url(images/novidades.jpg);
 
-    }
+}
 
-    .nav:hover {
-        border: aquamarine 3px;
-        transition: 300ms all ease-in-out;
-    }
+.nav:hover {
+    border: aquamarine 3px;
+    transition: 300ms all ease-in-out;
+}
 
-    .nav a:hover {
-        color: aquamarine;
+.nav a:hover {
+    color: aquamarine;
 
-    }
+}
 
-    .nav a {
-        text-decoration: none;
-        font-size: 30px;
-        color: #ffffff;
-    }
+.nav a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+}
 
-    .content {
-        display: flex;
-        padding: 40px;
-        gap: 50px;
-    }
+.content {
+    display: flex;
+    padding: 40px;
+    gap: 50px;
+}
 
-    .content p::selection{
-        background-color: #f8cc09;
-    }
+.content p::selection {
+    background-color: #f8cc09;
+}
 
 
-    .content img {
-        width: 800px;
-        border-radius: 15px;
-    }
+.content img {
+    width: 800px;
+    border-radius: 15px;
+}
 
-    .content p::first-line {
-        color: aquamarine;
-        
-    }
+.content p::first-line {
+    color: rgb(146, 0, 243);
 
-    .content-text {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        text-align: justify;
-        font-size: 18px;
+}
 
-    }
+.content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+    font-size: 18px;
 
-    .editor {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 50px;
-    }
+}
 
-    .editor a {
-        font-size: 80px;
-        color: blue;
-        text-decoration: none;
-    }
+.editor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
 
-    .editor a:active {
-        color: black;
-    }
+.editor a {
+    font-size: 80px;
+    color: blue;
+    text-decoration: none;
+}
 
-    .editor a:visited {
-        color: red;
-    }
+.editor a:active {
+    color: black;
+}
+
+.editor a:visited {
+    color: red;
+}
 
 
 
-    .editor a:hover {
-        color: aquamarine;
-        background-color: #333333;
-    }
+.editor a:hover {
+    color: aquamarine;
+    background-color: #333333;
+}
 
-    footer {
-        padding: 30px;
-        background-color: #333333;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-
-
-    footer span {
-        color: #fff;
-    }
-
-    .footer ul {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .footer ul li {
-        list-style: none;
-    }
-
-    .footer ul li a {
-        text-decoration: none;
-        color: #fff;
-    }
-
-    .footer ul li a:hover {
-        color: aquamarine;
-    }
+footer {
+    padding: 30px;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
-    .secret{
-        background-color: #333333;
-        padding: 30px;
-        margin-bottom: 20px;
-        text-align: center;
-        
-    }
 
-  
+footer span {
+    color: #fff;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer ul li a:hover {
+    color: aquamarine;
+}
+
+
+.secret {
+    background-color: #333333;
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
