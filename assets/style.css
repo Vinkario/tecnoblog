@@ -20,6 +20,9 @@ header {
 
 }
 
+a::first-letter{
+    text-transform: uppercase;
+}
 
 .titulo::first-letter {
     color:rgb(146, 0, 243);
@@ -35,10 +38,12 @@ header {
     list-style: none;
 }
 
+
 .menu ul li a {
-    text-decoration: none;
+   text-decoration: none;
     color: #fff;
 }
+
 
 .menu a:hover {
     color: aquamarine;
